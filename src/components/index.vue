@@ -2,29 +2,30 @@
 import { ref, onMounted } from 'vue'
 
 const picture = ref([
-  { url: '../src/assets/starRail/a1.png', name: '' },
-  { url: './src/assets/starRail/a2.png', name: '' },
-  { url: './src/assets/starRail/a3.png', name: '' },
-  { url: './src/assets/starRail/a4.png', name: '' },
-  { url: './src/assets/starRail/a5.png', name: '' },
-  { url: './src/assets/starRail/a6.png', name: '' },
-  { url: './src/assets/starRail/a7.png', name: '' },
-  { url: './src/assets/starRail/a8.png', name: '' },
-  { url: './src/assets/starRail/a9.png', name: '' },
-  { url: './src/assets/starRail/a10.png', name: '' },
-  { url: './src/assets/starRail/a11.png', name: '' },
-  { url: './src/assets/starRail/a12.png', name: '' },
-  { url: './src/assets/starRail/a13.png', name: '' },
-  { url: './src/assets/starRail/a14.png', name: '' },
-  { url: './src/assets/starRail/a15.png', name: '' },
-  { url: './src/assets/starRail/a16.png', name: '' },
-  { url: './src/assets/starRail/a17.png', name: '' },
-  { url: './src/assets/starRail/a18.png', name: '' },
-  { url: './src/assets/starRail/a19.png', name: '' },
-  { url: './src/assets/starRail/a20.png', name: '' },
-  { url: './src/assets/starRail/a21.png', name: '' },
-  { url: './src/assets/starRail/a22.png', name: '' }
-])
+  { url: '/assets/starRail/a1.png', name: '' },
+  { url: '/assets/starRail/a2.png', name: '' },
+  { url: '/assets/starRail/a3.png', name: '' },
+  { url: '/assets/starRail/a4.png', name: '' },
+  { url: '/assets/starRail/a5.png', name: '' },
+  { url: '/assets/starRail/a6.png', name: '' },
+  { url: '/assets/starRail/a7.png', name: '' },
+  { url: '/assets/starRail/a8.png', name: '' },
+  { url: '/assets/starRail/a9.png', name: '' },
+  { url: '/assets/starRail/a10.png', name: '' },
+  { url: '/assets/starRail/a11.png', name: '' },
+  { url: '/assets/starRail/a12.png', name: '' },
+  { url: '/assets/starRail/a13.png', name: '' },
+  { url: '/assets/starRail/a14.png', name: '' },
+  { url: '/assets/starRail/a15.png', name: '' },
+  { url: '/assets/starRail/a16.png', name: '' },
+  { url: '/assets/starRail/a17.png', name: '' },
+  { url: '/assets/starRail/a18.png', name: '' },
+  { url: '/assets/starRail/a19.png', name: '' },
+  { url: '/assets/starRail/a20.png', name: '' },
+  { url: '/assets/starRail/a21.png', name: '' },
+  { url: '/assets/starRail/a22.png', name: '' }
+]);
+
 
 const nameArr = ref([
   { name: '瓦尔特', desc: '瓦尔特是星穹铁道的守护者之一，拥有强大的力量和智慧。' },
